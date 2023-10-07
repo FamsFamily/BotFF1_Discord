@@ -48,6 +48,6 @@ async def uhuk(ctx, count_uhuk = 3):
 
 @bot.command()
 async def prok(ctx, count_prok = 3):
-    await ctx.send("prok" * count_prok)
+    await ctx.send("prok " * count_prok)
 
 bot.run("TOKEN RAHASIA ADA DI SINI")
